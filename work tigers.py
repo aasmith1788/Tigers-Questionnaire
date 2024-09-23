@@ -9,9 +9,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.patches import Rectangle, Ellipse
+import seaborn as sns
 
-import matplotlib.pyplot as plt
-from matplotlib.gridspec import GridSpec
 
 def create_pitcher_dashboard(pitcher_data, pitcher_name):
     # Set style and figure parameters
@@ -80,11 +79,6 @@ def create_pitcher_dashboard(pitcher_data, pitcher_name):
     plt.subplots_adjust(top=0.95, bottom=0.05, hspace=0.4)
     plt.show()
 
-
-    
-import matplotlib.pyplot as plt
-from matplotlib.patches import Rectangle
-import seaborn as sns
 
 def create_pitch_location_plot(data, ax, title, pitch_type_colors):
     # Get average pitch locations
